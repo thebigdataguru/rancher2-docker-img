@@ -1,0 +1,9 @@
+version: '3.2'
+
+services:
+    rancher2-docker-img:
+        build:
+            dockerfile: dockerfile
+            context: .
+        stdin_open: true
+        tty: true
